@@ -1,4 +1,4 @@
-/*resource "aws_security_group" "DemoSG" {
+resource "aws_security_group" "DemoSG" {
   name        = "DemoSG"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.main.id
@@ -21,4 +21,3 @@
 
 
 }
-*/
